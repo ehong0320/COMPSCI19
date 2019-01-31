@@ -1,2 +1,0 @@
-# COMPSCI19
-Blog
