@@ -1,0 +1,102 @@
+<!-- 
+	Eugene Blog Page
+	Author: Eugene Hong
+	Date: 02/14/19
+	
+	Filename:	table.html
+-->
+<html>
+	<head>
+		<style>
+		table, th, td {
+		border: 1px solid black;
+		border-collapse: collapse;
+	}
+		</style>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+	<meta charset="UTF-8">
+	<title>Last Modified</title>
+	</head>
+<body>
+
+<marquee>
+<div id="para1"></div>
+</marquee>
+<script>
+			document.getElementById("para1").innerHTML = formatAMPM();
+			function formatAMPM() {
+			var d = new Date(),
+			minutes = d.getMinutes().toString().length == 1 ? '0'+d.getMinutes() : d.getMinutes(),
+			hours = d.getHours().toString().length == 1 ? '0'+d.getHours() : d.getHours(),
+			ampm = d.getHours() >= 12 ? 'pm' : 'am',
+			months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],
+			days = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+			return days[d.getDay()]+' '+months[d.getMonth()]+' '+d.getDate()+' '+d.getFullYear()+' '+hours+':'+minutes+ampm;
+		}
+</script>
+
+<nav class="menu">
+<ul>
+	<li>
+	<a href="index.html">Home</a>
+	</li>
+
+	<li>
+	<a href="aboutme.html">About Me</a>
+	</li>
+
+	<li>
+	<a href="musicbio.html">Biography</a>
+	</li>
+	
+	<li>
+	<a id="active" href="table.html">More Information</a>
+	</li>
+</ul>
+</nav>
+
+<h2>Last Modified Posts</h2>
+<p>Recent changes made to the site. Information can be found on the table below</p>
+
+<table style="width:100%">
+  <tr>
+    <th>Title of Blog</th>
+    <th>Author</th> 
+    <th>Date added</th>
+  </tr>
+  <tr>
+    <td><center>NYYS (New York Youth Symphony) Tour in Spain!</center></td>
+    <td><center>Eugene Hong</center></td>
+    <td><center>10/20/18</center></td>
+  </tr>
+  <tr>
+    <td><center>Waldorf Music Essemble Concert</center></td>
+    <td><center>Eugene Hong</center></td>
+    <td><center>10/24/18</center></td>
+  </tr>
+  <tr>
+    <td><center>Waldorf Holiday Assembly</center></td>
+    <td><center>Eugene Hong</center></td>
+    <td><center>12/14/18</center></td>
+  </tr>
+</table>
+
+<h2>Contact Information</h2>
+<p>If you would like to contact me, here are some ways you can reach me!<p>
+
+<table style="width:100%">
+  <tr>
+    <th>Email</th>
+    <th>Name</th> 
+    <th>Phone #</th>
+  </tr>
+  <tr>
+    <td><center>hongeugene0320@gmail.com</center></td>
+    <td><center>Eugene Hong</center></td>
+    <td><center>888-888-8888</center></td>
+  </tr>
+</table>
+	
+</body>
+
+	
