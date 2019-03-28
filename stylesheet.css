@@ -83,13 +83,13 @@ menu {
 }
 
 @-webkit-keyframes ticker {
-	0%   {left:0%; top:0px;}
-	100% {left:100%; top:0px;}
+	0%   {left:750px; top:0px;}
+	100% {left:750px; top:0px;}
 	
 }
 
 @keyframes ticker {
-	0%   {left:0%; top:0px;}
-	100% {left:100%; top:0px;}
+	0%   {left:750px top:0px;}
+	100% {left:750px; top:0px;}
 	
 }
