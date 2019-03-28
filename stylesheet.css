@@ -75,7 +75,7 @@ menu {
 }
 
 #para1 {
-	  position: relative;
+	position: relative;
 	-webkit-animation-name: ticker; 
 	-webkit-animation-duration: 7s; 
 	animation-name: ticker;
@@ -84,13 +84,13 @@ menu {
 }
 
 @-webkit-keyframes ticker {
-	0%   {left:0px; top:0px;}
-	100% {left:750px; top:0px;}
+	0%   {left:750px; top:0px;}
+	100% {left:0px; top:0px;}
 	
 }
 
 @keyframes ticker {
-	0%   {left:0px top:0px;}
-	100% {left:750px; top:0px;}
+	0%   {left:750px top:0px;}
+	100% {left:0px; top:0px;}
 	
 }
