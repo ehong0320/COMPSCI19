@@ -74,12 +74,10 @@ menu {
 		color: #009699;
 }
 
-#para1 {
+div.ticker {
 	position: relative;
-	-webkit-animation-name: ticker; 
-	-webkit-animation-duration: 7s; 
-	animation-name: ticker;
-	animation-duration: 7s;
+	animation: ticker 7s infinite forwards;
+	-webkit-animation: ticker 7s infinite forwards;
 
 }
 
