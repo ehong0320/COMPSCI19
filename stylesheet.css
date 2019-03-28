@@ -74,7 +74,7 @@ menu {
 		color: #009699;
 }
 
-#para1
+#para1 {
 	-webkit-animation-name: ticker; 
 	-webkit-animation-duration: 7s; 
 	animation-name: ticker;
