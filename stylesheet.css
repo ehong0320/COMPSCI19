@@ -75,6 +75,7 @@ menu {
 }
 
 #para1 {
+	  position: relative;
 	-webkit-animation-name: ticker; 
 	-webkit-animation-duration: 7s; 
 	animation-name: ticker;
