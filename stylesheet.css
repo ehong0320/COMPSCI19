@@ -74,21 +74,3 @@ menu {
 		color: #009699;
 }
 
-div.ticker {
-	position: relative;
-	animation: ticker 7s infinite forwards;
-	-webkit-animation: ticker 7s infinite forwards;
-
-}
-
-@-webkit-keyframes ticker {
-	0%   {left:750px; top:0px;}
-	100% {left:0px; top:0px;}
-	
-}
-
-@keyframes ticker {
-	0%   {left:750px top:0px;}
-	100% {left:0px; top:0px;}
-	
-}
